@@ -50,29 +50,36 @@ The <b>AmazonApp Registration and Login System</b> is a web-based application de
 <b>Tools:</b> Apache Tomcat for server deployment
 
 u><h2>System Architecture:</h2></u>
+<ol>
+<li>
 Frontend (HTML/CSS):
+<ul>
+<li><b>Registration Page:</b> Users enter their details and submit the form.</li>
 
-Registration Page: Users enter their details and submit the form.
-
-Login Page: Users enter their credentials to log in.
-
+<li><b>Login Page:</b> Users enter their credentials to log in.</li>
+</ul>
+</li>
+<li>
 Backend (Java Servlets):
 
 UserController: Handles user registration by receiving form data, encrypting the password, and storing the user details in the database.
 
 LoginController: Handles user authentication by verifying the provided credentials against the stored data.
-
+</li>
+<li>
 Database (MySQL):
 
 User Table: Stores user details including ID, name, encrypted password, email, and phone number.
-
+</li>
+<li>
 Security Considerations:
 Password Encryption: Ensures that user passwords are stored securely using BCrypt hashing.
 
 Form Validation: Prevents incomplete or invalid data from being submitted.
 
 Secure Database Connections: Protects data during transmission between the application and the database.
-
+</li>
+</ol>
 <u><h2>How to Run:</h2></u>
 <b>Set Up the Database:</b>
 
