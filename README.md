@@ -1,6 +1,6 @@
 <b>Author</b>
 <p>Kade Omprasad<p>
-#User registration and authentication using java servelts
+# User registration and authentication using java servelts
 <u><h2>Description</h2></u>
 The <b>AmazonApp Registration and Login System</b> is a web-based application designed to handle user registration and authentication processes for an online platform similar to Amazon. The system ensures secure storage and retrieval of user data using password encryption and includes a user-friendly interface for registration and login.
 
