@@ -1,3 +1,5 @@
+<h1>Author</h1>
+<h2>Kade Omprasad</h2>
 # User registration and authentication using java servelts
 <u><h2>Description</h2></u>
 The <b>AmazonApp Registration and Login System</b> is a web-based application designed to handle user registration and authentication processes for an online platform similar to Amazon. The system ensures secure storage and retrieval of user data using password encryption and includes a user-friendly interface for registration and login.
@@ -39,17 +41,18 @@ The <b>AmazonApp Registration and Login System</b> is a web-based application de
 </ol>
 
 <u><h2>Technology Stacks:</h2></u>
-<b>Frontend:</b> HTML, CSS
+<ol>
+<li><b>Frontend:</b> HTML, CSS</li>
 
-<b>Backend:</b> Java Servlets
+<li><b>Backend:</b> Java Servlets</li>
 
-<b>Database:</b> MySQL
+<li><b>Database:</b> MySQL</li>
 
-<b>Encryption:</b> BCrypt for password hashing
+<li><b>Encryption:</b> BCrypt for password hashing</li>
 
-<b>Tools:</b> Apache Tomcat for server deployment
-
-u><h2>System Architecture:</h2></u>
+<li><b>Tools:</b> Apache Tomcat for server deployment</li>
+</ol>
+<u><h2>System Architecture:</h2></u>
 <ol>
 <li>
 Frontend (HTML/CSS):
@@ -61,42 +64,52 @@ Frontend (HTML/CSS):
 </li>
 <li>
 Backend (Java Servlets):
-
-UserController: Handles user registration by receiving form data, encrypting the password, and storing the user details in the database.
-
-LoginController: Handles user authentication by verifying the provided credentials against the stored data.
+<ul>
+<li><b>UserController:</b> Handles user registration by receiving form data, encrypting the password, and storing the user details in the database.</li>
+<li><b>LoginController:</b> Handles user authentication by verifying the provided credentials against the stored data.</li>
+</ul>
 </li>
 <li>
 Database (MySQL):
-
-User Table: Stores user details including ID, name, encrypted password, email, and phone number.
+<ul><li>
+<b>User Table:</b> Stores user details including ID, name, encrypted password, email, and phone number.
+</li></ul>
 </li>
 <li>
 Security Considerations:
-Password Encryption: Ensures that user passwords are stored securely using BCrypt hashing.
+<ul>
+<li><b>Password Encryption:</b> Ensures that user passwords are stored securely using BCrypt hashing.</li>
 
-Form Validation: Prevents incomplete or invalid data from being submitted.
+<li><b>Form Validation:</b> Prevents incomplete or invalid data from being submitted.</li>
 
-Secure Database Connections: Protects data during transmission between the application and the database.
+<li><b>Secure Database Connections:</b> Protects data during transmission between the application and the database.</li>
+</ul>
 </li>
 </ol>
 <u><h2>How to Run:</h2></u>
-<b>Set Up the Database:</b>
+<ol>
+<li><b>Set Up the Database:</b>
+<ul>
+<li>Install MySQL and create a database named amazon.</li>
 
-Install MySQL and create a database named amazon.
-
-Create a table users with columns for ID, name, encrypted password, email, and phone number.
-
+<li>Create a table users with columns for ID, name, encrypted password, email, and phone number.</li>
+</ul>
+</li>
+<li>
 <b>Deploy the Application:</b>
+<ul>
+<li>Set up Apache Tomcat and deploy the web application.</li>
 
-Set up Apache Tomcat and deploy the web application.
-
-Ensure JDBC drivers are correctly configured and the database connection details are accurate.
-
+<li>Ensure JDBC drivers are correctly configured and the database connection details are accurate.</li>
+</ul>
+</li>
+<li>
 <b>Access the Application:</b>
+<ul>
+<li>Open the registration page (http://localhost:9090/AmazonApp/register.html) to create a new user account.</li>
 
-Open the registration page (http://localhost:9090/AmazonApp/register.html) to create a new user account.
-
-Use the login page (http://localhost:9090/AmazonApp/login.html) to log in with the registered credentials.
-
+<li>Use the login page (http://localhost:9090/AmazonApp/login.html) to log in with the registered credentials.</li>
+</ul>
+</li>
+</ol>
 This project demonstrates a secure and efficient way to manage user authentication for web applications. Feel free to modify and expand on this basic framework to suit your specific needs and requirements!
