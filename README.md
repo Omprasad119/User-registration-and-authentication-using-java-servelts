@@ -1,16 +1,19 @@
 # User registration and authentication using java servelts
 <u><h2>Description</h2></u>
-The AmazonApp Registration and Login System is a web-based application designed to handle user registration and authentication processes for an online platform similar to Amazon. The system ensures secure storage and retrieval of user data using password encryption and includes a user-friendly interface for registration and login.
-User Registration:
+The <b>AmazonApp Registration and Login System</b> is a web-based application designed to handle user registration and authentication processes for an online platform similar to Amazon. The system ensures secure storage and retrieval of user data using password encryption and includes a user-friendly interface for registration and login.
 
-Users can register by providing their ID, name, password, email, and phone number.
+<u><h2>Key Features</h2></u>
+<ol>
+<li>User Registration:
+<ul>
+<li>Users can register by providing their ID, name, password, email, and phone number.</li>
 
-Form validation to ensure all required fields are filled out.
+<li>Form validation to ensure all required fields are filled out.</li>
 
-Passwords are securely encrypted using BCrypt before storage in the database.
+<li>Passwords are securely encrypted using BCrypt before storage in the database.</li>
 
-Successful registration redirects users to a success page, while failures redirect to an error page.
-
+<li>Successful registration redirects users to a success page, while failures redirect to an error page.</li></ul></li>
+</ol>
 User Login:
 
 Users can log in by providing their username and password.
@@ -30,6 +33,7 @@ Web Interface:
 A clean and intuitive HTML/CSS-based interface for user registration and login.
 
 Form elements include input fields for ID, name, password, email, and phone number.
+</ol>
 
 Technology Stack:
 Frontend: HTML, CSS
